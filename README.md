@@ -1,44 +1,35 @@
-# BTC-Hack-OFFLINE - Bitcoin Wallet Hack
+![btc-hack](https://socialify.git.ci/DavidMGilbert/btc-hack-offline/image?description=0&font=Raleway&forks=1&issues=1&language=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark)
 
-An automated bitcoin wallet generator that brute forces random wallet addresses by checking their balance against an offline database.
 
-# Like This Project? Give It A Star or please consider donating!
+<h2 align=center>
+  <a href="#">
+    <img src="https://forthebadge.com/images/badges/works-on-my-machine.svg">
+  </a>
+  <a href="#">
+    <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg">
+  </a>
+  <a href="#">
+    <img src="https://forthebadge.com/images/badges/pretty-risque.svg">
+  </a>
+  <a href="#">
+    <img src="https://forthebadge.com/images/badges/made-with-out-pants.svg">
+  </a>
+ </h2>
+
+<h2 align=center> ⚠ PLEASE NOTE: This code is only for educational purposes. ⚠ </h2>
+<h2 align=center> ⚠ If you do something illegal expect to be held responsible for your own actions. ⚠ </h2>
+
+<h2 align=center> Like This Project? Give It A Star or please consider donating! </h2>
 
 [![](https://img.shields.io/github/stars/davidmgilbert/btc-hack-offline.svg)](https://github.com/davdmgilbert/btc-hack-offline)
 
-My Bitcoin Wallet Address: 1LKKJE62ygo2c9K2Xc8GxuGwpVDnvyRFRD
+<h2 align=center> My Bitcoin Wallet Address: 1LKKJE62ygo2c9K2Xc8GxuGwpVDnvyRFRD </h2>
 
-# Dependencies
-
-<a href="https://www.python.org/downloads/">Python 3.9</a> or higher
-
-Python modules listed in the <a href="/requirements.txt">requirements.txt<a/>
-
-If you have a __Linux__ or __MacOS__ operating system, libgmp3-dev is required. If you have __Windows__ then this is not required. Install by running the command:
-```
-sudo apt-get install libgmp3-dev
-```
-
-# Installation
-
-```
-git clone https://github.com/davdmgilbert/btc-hack-offline.git btc-hack-offline
-```
-```
-cd btc-hack-offline && pip3 install -r requirements.txt
-```
-
-# Quick Start
-
-```
-python3 btc-hack-offline.py
-```
-
-# Proof Of Concept
-
-A private key is a secret number that allows Bitcoins to be spent. If a wallet has Bitcoins in it, then the private key will allow a person to control the wallet and spend whatever balance the wallet has. So this program attempts to find Bitcoin private keys that correlate to wallets with positive balances. However, because it is impossible to know which private keys control wallets with money and which private keys control empty wallets, we have to randomly look at every possible private key that exists and hope to find one that has a balance.
+<h2 align=center> 📑 Introduction </h2>
 
 This program is essentially a brute forcing algorithm. It continuously generates random Bitcoin private keys, converts the private keys into their respective wallet addresses, then checks the balance of the addresses. If a wallet with a balance is found, then the private key, public key and wallet address are saved to the text file `found.txt` on the user's hard drive. The ultimate goal is to randomly find a wallet with a balance out of the 2<sup>160</sup> possible wallets in existence. 
+
+A private key is a secret number that allows Bitcoins to be spent. If a wallet has Bitcoins in it, then the private key will allow a person to control the wallet and spend whatever balance the wallet has. So this program attempts to find Bitcoin private keys that correlate to wallets with positive balances. However, because it is impossible to know which private keys control wallets with money and which private keys control empty wallets, we have to randomly look at every possible private key that exists and hope to find one that has a balance.
 
 # How It Works
 
@@ -91,6 +82,61 @@ If a wallet with a balance is found, then all necessary information about the wa
 >public key: 04393B30BC950F358326062FF28D194A5B28751C1FF2562C02CA4DFB2A864DE63280CC140D0D540EA1A5711D1E519C842684F42445C41CB501B7EA00361699C320<br/>
 >uncompressed address: 1Kz2CTvjzkZ3p2BQb5x5DX6GEoHX2jFS45<br/>
 
-# Recent Improvements & TODO
+<h2 align=center> 👨🏻‍💻 How to get started? </h2> 
 
-<a href="https://github.com/DavidMGilbert/btc-hack-offline/issues">Create an issue</a> so I can add more stuff to improve
+ Compiling & Use
+ --------
+
+# Dependencies
+
+<a href="https://www.python.org/downloads/">Python 3.9</a> or higher
+
+Python modules listed in the <a href="/requirements.txt">requirements.txt<a/>
+
+If you have a __Linux__ or __MacOS__ operating system, libgmp3-dev is required. If you have __Windows__ then this is not required. Install by running the command:
+```
+sudo apt-get install libgmp3-dev
+```
+
+# Installation
+
+```
+git clone https://github.com/davdmgilbert/btc-hack-offline.git btc-hack-offline
+```
+```
+cd btc-hack-offline && pip3 install -r requirements.txt
+```
+
+# Quick Start
+
+```
+python3 btc-hack-offline.py
+```
+
+<h2 align=center> 📝 How to Contribute & To do </h2>  
+
+
+
+<h2 align=center> ✨ Contributors ✨ </h2>
+  
+  <table>
+	<tr>
+		<td>
+			<a href="https://github.com/DavidMGilbert/btc-hack/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DavidMGilbert/btc-hack" />
+      </a>
+		</td>
+	</tr>
+</table>
+
+Contributions of any kind welcome!
+
+<h1 align=center> Project Admin </h1>
+<p align="center">
+  <a href="https://www.davidmgilbert.com"><img src="https://avatars.githubusercontent.com/u/118702908?v=4" width=150px height=150px /></a>   
+
+<h1 align=center>Happy Hacking 👨‍💻</h1>
+
+
+
+
