@@ -19,9 +19,9 @@
 <h2 align=center> ⚠ PLEASE NOTE: This code is only for educational purposes. ⚠ </h2>
 <h2 align=center> ⚠ If you do something illegal expect to be held responsible for your own actions. ⚠ </h2>
 
-<h2 align=center> Like This Project? Give It A Star or please consider donating! </h2>
+<h2 align=center> Like This Project? Give It A Star or please consider donating! [![](https://img.shields.io/github/stars/davidmgilbert/btc-hack-offline.svg)](https://github.com/davdmgilbert/btc-hack-offline)</h2>
 
-[![](https://img.shields.io/github/stars/davidmgilbert/btc-hack-offline.svg)](https://github.com/davdmgilbert/btc-hack-offline)
+
 
 <h2 align=center> My Bitcoin Wallet Address: 1LKKJE62ygo2c9K2Xc8GxuGwpVDnvyRFRD </h2>
 
